@@ -23,5 +23,9 @@ def save_to_text_file(content: str, filename: str = "Output/research_output_def.
 save_tool = Tool(
     name="save_to_text_file",
     func=save_to_text_file,
-    description="Save research output to a text file"
+    description=(
+        "Save the FINAL research output to a text file. "
+        "Call this ONLY AFTER you have assembled the final ResearchResponse JSON. "
+        "Argument must be exactly the JSON string you will return to the user."
+    )
 )
