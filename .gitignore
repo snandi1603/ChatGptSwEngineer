@@ -1,0 +1,7 @@
+*.txt
+*.env*
+__pycache__*
+*.txt.*
+Output
+*.log
+*.menv
